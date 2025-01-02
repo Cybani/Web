@@ -1,0 +1,277 @@
+@import url("base.css");
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    padding: 2px 2px;
+}
+
+.titre {
+    margin-right: 850px;
+}
+
+.nav {
+    padding: 5px 5px;
+    font-size: small;
+    border-top: 1px solid #ddd;
+}
+
+.warning {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fadede;
+    color: #b33c3c;
+    font-size: 14px;
+}
+
+.navigate {
+    display: flex;
+    align-items: flex-start;
+}
+
+.titlemain {
+    color: rgb(0, 0, 135);
+}
+
+.cartes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: small;
+}
+
+.gauche {
+    margin-right: 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+
+.milieu {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+
+.droite {
+    margin-left: 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+
+.resultat1 {
+    margin-right: 120px;
+    background-color: rgb(237, 152, 152);
+}
+
+.resultat2 {
+    margin-right: 120px;
+    background-color: rgb(119, 238, 119);
+}
+
+.resultat3 {
+    margin-right: 120px;
+    background-color: rgb(233, 233, 128);
+}
+
+.centre-gauche {
+    margin-right: 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+
+.centre-droit {
+    margin-right: 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+
+.petitescartes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.GestionBudget {
+    display: flex;
+    margin-top: 30px;
+    background-color: rgb(220, 216, 249);
+}
+
+.Octobre {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 70px;
+    margin-left: -310px;
+}
+
+.BasDePage {
+    display: flex;
+    justify-content: center;
+    color: grey;
+    margin-top: 50px;
+    border-top: 1px solid grey;    
+}
+
+.nav:hover {
+    background-color: #f6f6f6;
+}
+
+.login ::before {
+    display: flex;
+    justify-content: flex-end;
+    content: url("../img/user-fill.svg");
+    margin-right: 30px;
+}
+
+.logout ::before {
+    display: flex;
+    justify-content: flex-end;
+    content:url("../img/logout.svg");
+    margin-right: 70px;
+}
+
+.accueil ::after {
+    content: '>';
+    margin-left: 10px;
+}
+
+.cartes :hover{
+    background-color: #f6f6f6;
+}
+.border {
+    border: 1px solid #ddd;
+}
+.bouton {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+.connexion {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.mdp {
+    margin-bottom: 30px;
+}
+
+.créerCompte {
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    margin-bottom: 30px;
+}
+
+.loginConnexion {
+    margin-bottom: 30px;
+}
+
+.MotDePasse {
+    margin-bottom: 30px;
+}
+
+.cartesRecap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: small;
+}
+
+.carteGauche {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+
+.carteDroite {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+
+
+.obj {
+    background-color: paleturquoise;
+}
+
+.res {
+    background-color: rgb(83, 231, 83);
+}
+
+.ecart {
+    background-color: beige;
+}
+
+.revenuMensuel {
+    background-color: rgb(83, 231, 83);
+}
+
+.depensesMensuelles {
+    background-color: rgb(251, 50, 50);
+}
+
+table, th, td {
+    margin-top: 50px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.depenses {
+    color: red;
+}
+
+.revenus {
+    color: rgb(63, 177, 63);
+}
+
+.sections {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section1 {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+
+.section2 {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+
+.section3 {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 3px solid black;
+    padding: 20px;
+}

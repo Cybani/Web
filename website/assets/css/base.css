@@ -1,0 +1,44 @@
+@media (min-width : 320px) and (max-width : 767px) {
+    .titre {
+        visibility: hidden;
+    }
+    .logout {
+        display: flex;
+        margin-bottom: auto;
+    }
+    .login {
+       display: flex;
+       margin-top: 70px;
+       margin-bottom: auto;
+       margin-right: -55px;
+    }
+    .nav {
+        visibility: hidden;
+    }
+
+    .warning {
+        visibility: hidden;
+    }
+    .cartes {
+        flex-direction: column;
+        justify-content: center;
+        flex: 1 1 100%;
+        padding-top: 10px;
+    }
+    .milieu {
+        margin-right: 10px;
+    }
+    .droite {
+        margin-right: 20px
+    }
+    .petitescartes {
+        flex-direction: column;
+        margin-left: 200px;
+        width: 200px;
+    }
+}
+
+.TouteLaPage {
+    margin-left: 70px;
+    margin-right: 70px;
+}
